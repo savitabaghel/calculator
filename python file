@@ -1,0 +1,14 @@
+a=eval(input("enter first number:"))
+b=eval(input("enter second number:"))
+print("1.addition 2.subtraction 3.multiply 4.division")
+choice=eval(input("enter choice:"))
+if(choice==1):
+    print(a+b)
+elif(choice==2):
+    print(a-b)
+elif(choice==3):
+    print(a*b)
+elif(choice==4):
+    print(a/b)
+
+       
